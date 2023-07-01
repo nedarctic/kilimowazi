@@ -1,0 +1,22 @@
+{
+  "name": "kguru-waziup",
+  "version": "1.0.0",
+  "description": "A Kilimoguru Apollo Server-powered backend that consumes Waziup API.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "Justus Kimtai",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/datasource-rest": "^6.0.1",
+    "@apollo/server": "^4.7.4",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
+    "nodemon": "^2.0.22"
+  }
+}
